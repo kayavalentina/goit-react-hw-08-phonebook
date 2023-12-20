@@ -4,8 +4,11 @@ import { useSelector, useDispatch } from 'react-redux';
 import { Formik, Form, ErrorMessage } from 'formik';
 import PropTypes from 'prop-types';
 import Notiflix from 'notiflix';
-import { addContact } from '../../redux/operations';
-import { selectIsLoading, selectVisibleContacts } from '../../redux/selectors';
+import { addContact } from '../../redux/contacts/operations';
+import {
+  selectIsLoading,
+  selectVisibleContacts,
+} from '../../redux/contacts/selectors';
 import { Loader } from 'components/Loader';
 
 import {

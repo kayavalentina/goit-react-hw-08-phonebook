@@ -6,7 +6,7 @@ import {
   handleGetAllContactsFulfilled,
   handlePending,
   handleRejected,
-} from './handlers';
+} from '../handlers';
 
 const contactsSlice = createSlice({
   name: 'contacts',

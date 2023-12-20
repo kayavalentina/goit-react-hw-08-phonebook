@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { deleteContact, fetchContacts } from '../../redux/operations';
+import { deleteContact, fetchContacts } from '../../redux/contacts/operations';
 import { useDispatch, useSelector } from 'react-redux';
 
 import {
@@ -15,7 +15,7 @@ import {
   selectError,
   selectIsLoading,
   selectVisibleContacts,
-} from '../../redux/selectors';
+} from '../../redux/contacts/selectors';
 
 import { Loader } from 'components/Loader';
 
