@@ -8,8 +8,8 @@ export const Container = styled.div`
 `;
 
 export const Title = styled.h1`
-  font-weight: 300;
-  font-size: 48px;
+  font-weight: 700;
+  font-size: 24px;
   text-align: center;
-  color: white;
+  color: #f9f9fa;
 `;

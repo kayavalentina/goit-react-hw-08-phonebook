@@ -34,7 +34,6 @@ export const RegisterForm = () => {
     <Formik
       initialValues={defaultValues}
       onSubmit={handleRegisterSubmit}
-      //   validationSchema={schema}
     >
       <StyledForm>
         <Label>

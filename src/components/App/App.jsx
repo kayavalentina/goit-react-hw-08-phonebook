@@ -9,7 +9,6 @@ import { refreshUser } from '../../redux/auth/operations';
 import { useAuth } from '../../hooks';
 import { MainContainer } from './App.styled';
 
-
 const Home = lazy(() => import('pages/Home/Home'));
 const Contacts = lazy(() => import('pages/Contacts/Contacts'));
 const Register = lazy(() => import('pages/Register/Register'));

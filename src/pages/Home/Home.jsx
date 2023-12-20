@@ -8,7 +8,7 @@ export default function Home() {
         <title>Phonebook</title>
       </Helmet>
       <Container>
-        <Title>Welcome to the Phonebook!</Title>
+        <Title>Yours Phonebook!</Title>
       </Container>
     </>
   );
